@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Uniwallet</span>
+    <span class="example-spacer"></span>
+    <span class="nav-tool-items">
+      <button *ngIf="address" type="button" class="btn btn-1 m-5">{{address}}</button>
+      <button *ngIf="!address" type="button" class="btn btn-1 m-5" (click)="connectMetamask()" >Connect</button>
+    </span>
+  </mat-toolbar>
