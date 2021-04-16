@@ -1,9 +1,13 @@
 <app-header></app-header>
 
-<div class="content">
+<div *ngIf="address.length<=0">
+  <app-splash></app-splash>
+</div>
+
+<div class="content" *ngIf="address.length>0">
   <mat-tab-group animationDuration="0ms">
-    <mat-tab label="Wallet">
-      <app-home></app-home>
+    <mat-tab label="Assets">
+      <app-nft></app-nft>
     </mat-tab>
     <mat-tab label="Transaction History">
       <app-transaction></app-transaction>

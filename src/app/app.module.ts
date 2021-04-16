@@ -9,6 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import { HeaderComponent } from './components/header/header.component';
 import { TransactionComponent } from './components/transaction/transaction.component';
+import { NftComponent } from './components/nft/nft.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SplashComponent } from './components/splash/splash.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,16 @@ import { TransactionComponent } from './components/transaction/transaction.compo
     HomeComponent,
     AboutComponent,
     HeaderComponent,
-    TransactionComponent
+    TransactionComponent,
+    NftComponent,
+    SplashComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
