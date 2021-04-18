@@ -19,8 +19,8 @@
   </ng-container>
 
   <ng-container matColumnDef="block_signed_at" >
-    <th style="font-size: larger; font-weight:bolder; color: blue; text-align: center;" mat-header-cell *matHeaderCellDef>DATE</th>
-    <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.block_signed_at | date}} </td>
+    <th style="font-size: larger; font-weight:bolder; color: blue; text-align: center;" mat-header-cell *matHeaderCellDef>NFT</th>
+    <td style="text-align: center;" mat-cell *matCellDef="let element"> <img [src]=getImageURL(element.to_address) /> </td>
   </ng-container>
 
   <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->

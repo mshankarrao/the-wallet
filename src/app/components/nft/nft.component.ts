@@ -9,8 +9,7 @@ import { AccountService } from 'src/app/services/account/account.service';
 export class NftComponent implements OnInit {
   items: any;
   nfts: any = [];
-  result: any =[];
-  k =[1,2,3,4,5,6,7];
+  result: any = [];
 
   constructor(private accountService: AccountService) {
 
@@ -19,14 +18,13 @@ export class NftComponent implements OnInit {
   ngOnInit() {
     this.accountService.getNFTDetails().subscribe((val: any) => {
       this.items = val.data.items;
-      var zaffa: any[] = [];
+      var final_result: any[] = [];
       for (var item of this.items) {
         if (item.nft_data != null) {
-          zaffa = this.result.concat(item.nft_data);
+          final_result = this.result.concat(item.nft_data);
         }
       }
-      this.nfts = zaffa;
-      console.log("Result",this.nfts[0].external_data.image)
+      this.nfts = final_result;
     })
 
   }

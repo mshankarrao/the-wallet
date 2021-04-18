@@ -12,6 +12,8 @@ import { TransactionComponent } from './components/transaction/transaction.compo
 import { NftComponent } from './components/nft/nft.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SplashComponent } from './components/splash/splash.component';
+import { TokensComponent } from './components/tokens/tokens.component';
+import { NftTransactionComponent } from './components/nft-transaction/nft-transaction.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { SplashComponent } from './components/splash/splash.component';
     TransactionComponent,
     NftComponent,
     SplashComponent,
+    TokensComponent,
+    NftTransactionComponent,
   ],
   imports: [
     BrowserModule,
