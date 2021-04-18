@@ -1,0 +1,83 @@
+{
+    "data": {
+      "address": "0xffe1426e77ce0f7c0945fcc1f4196cd8dc3f090a",
+      "updated_at": "2021-04-10T17:35:48.460964368Z",
+      "next_update_at": "2021-04-10T17:40:48.460964835Z",
+      "quote_currency": "USD",
+      "chain_id": 43113,
+      "items": [
+        {
+          "contract_decimals": 18,
+          "contract_name": "Avalanche Coin",
+          "contract_ticker_symbol": "AVAX",
+          "contract_address": "0x9debca6ea3af87bf422cea9ac955618ceb56efb4",
+          "supports_erc": null,
+          "logo_url": "https://logos.covalenthq.com/tokens/0x9debca6ea3af87bf422cea9ac955618ceb56efb4.png",
+          "type": "cryptocurrency",
+          "balance": "4118431325000000000",
+          "quote_rate": 32.126003,
+          "quote": 132.30873,
+          "nft_data": null
+        },
+        {
+          "contract_decimals": 0,
+          "contract_name": "AvaHack",
+          "contract_ticker_symbol": "AHA",
+          "contract_address": "0xc8a18aebc386e645573254679aceb8080f58c9ba",
+          "supports_erc": ["erc20", "erc721"],
+          "logo_url": "https://logos.covalenthq.com/tokens/0xc8a18aebc386e645573254679aceb8080f58c9ba.png",
+          "type": "nft",
+          "balance": "4",
+          "quote_rate": 0,
+          "quote": 0,
+          "nft_data": [
+            {
+              "token_id": "1",
+              "token_balance": "1",
+              "token_url": "https://example.com/tokens/https://gateway.pinata.cloud/ipfs/QmZAM1CR2qcfXJPzs9qdcS7krg6keRCyRFqbwyoYPUy6ct",
+              "supports_erc": ["erc20", "erc721"],
+              "token_price_wei": null,
+              "token_quote_rate_eth": null,
+              "external_data": null,
+              "owner": "0xffe1426e77ce0f7c0945fcc1f4196cd8dc3f090a"
+            },
+            {
+              "token_id": "2",
+              "token_balance": "1",
+              "token_url": "https://example.com/tokens/https://gateway.pinata.cloud/ipfs/QmZAM1CR2qcfXJPzs9qdcS7krg6keRCyRFqbwyoYPUy6ct",
+              "supports_erc": ["erc20", "erc721"],
+              "token_price_wei": null,
+              "token_quote_rate_eth": null,
+              "external_data": null,
+              "owner": "0xffe1426e77ce0f7c0945fcc1f4196cd8dc3f090a"
+            },
+            {
+              "token_id": "3",
+              "token_balance": "1",
+              "token_url": "https://example.com/tokens/https://gateway.pinata.cloud/ipfs/QmZAM1CR2qcfXJPzs9qdcS7krg6keRCyRFqbwyoYPUy6ct",
+              "supports_erc": ["erc20", "erc721"],
+              "token_price_wei": null,
+              "token_quote_rate_eth": null,
+              "external_data": null,
+              "owner": "0xffe1426e77ce0f7c0945fcc1f4196cd8dc3f090a"
+            },
+            {
+              "token_id": "4",
+              "token_balance": "1",
+              "token_url": "https://example.com/tokens/https://gateway.pinata.cloud/ipfs/QmZAM1CR2qcfXJPzs9qdcS7krg6keRCyRFqbwyoYPUy6ct",
+              "supports_erc": ["erc20", "erc721"],
+              "token_price_wei": null,
+              "token_quote_rate_eth": null,
+              "external_data": null,
+              "owner": "0xffe1426e77ce0f7c0945fcc1f4196cd8dc3f090a"
+            }
+          ]
+        }
+      ],
+      "pagination": null
+    },
+    "error": false,
+    "error_message": null,
+    "error_code": null
+  }
+  
